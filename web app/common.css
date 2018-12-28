@@ -1,0 +1,154 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #8e8e93;
+	font-size: 14px;
+}
+h4 {
+
+	font-size: 15px;
+	color: #4c4f59;
+	margin-bottom: 40px;
+}
+li {
+	list-style-type: none;
+
+}
+time {
+	font-size: 12px;
+	color: #4c4f59;
+	float: right;
+}
+aside {
+	height: 100%;
+	float: left;
+    width:225px;
+    position: relative;
+}
+nav {
+	height: 100%;
+}
+
+/*button section*/
+
+button {
+	border:0px;
+	cursor: pointer;
+}
+button:focus {
+	outline: 0px;
+}
+
+
+input:focus {
+	outline: 0;
+}
+textarea {
+  width:100%;
+  border:none;
+  font-size: 18px;
+  margin: 0 20px;
+  width: 90%;
+}
+textarea:focus {
+	outline:0;
+}
+.btn {
+	
+	height: 36px;
+	border-radius: 2px;
+	background-color: #007aff;
+	font-size: 12px;
+	color: #ffff;
+	font-weight: 300;
+	margin:20px auto;
+	border-radius: 5px;
+}
+.categories, .categories-content li {
+	cursor: pointer;
+}
+
+.fa {
+	font-size: 20px;
+	padding-right: 15px;
+	cursor: pointer;
+	color: #8e8e93;
+}
+.fa-paperclip {
+	display: none;
+}
+
+.attach .fa-paperclip {
+	display: block;
+}
+
+
+.clients-mark code{
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 3px solid cyan;
+    margin-right: 15px;
+    border-radius: 2px;
+}
+.archives-mark  code{
+		display: inline-block;
+	    width: 10px;
+	    height: 10px;
+	    border: 3px solid #6f6e74;
+	    margin-right: 15px;
+	    border-radius: 2px;
+}
+.family-mark code{
+		display: inline-block;
+	    width: 10px;
+	    height: 10px;
+	    border: 3px solid #ff7100;
+	    margin-right: 15px;
+	    border-radius: 2px;
+
+}
+.friend-mark code{
+
+		display: inline-block;
+	    width: 10px;
+	    height: 10px;
+	    border: 3px solid #d0db00;
+	    margin-right: 15px;
+	    border-radius: 2px;
+}
+.personal-mark code {
+		display: inline-block;
+	    width: 10px;
+	    height: 10px;
+	    border: 3px solid #9200ff;
+	    margin-right: 15px;
+	    border-radius: 2px;
+}
+.clients code{
+	border: 5px solid cyan;
+	border-radius: 50%;
+	float: right;
+}
+.personal code{
+	border: 5px solid #9200ff;
+
+	border-radius: 50%;
+	float: right;
+
+}
+.family code{
+	border-radius: 50%;
+	float: right;
+	border: 5px solid #ff7100;
+}
+.archives code{
+	border-radius: 50%;
+	float: right;
+	border: 5px solid #6f6e74;
+}

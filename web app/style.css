@@ -1,0 +1,392 @@
+
+aside .btn {
+	margin: 30px 20px;
+	width: 185px;
+}
+
+/*float-clear*/
+
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*Hover section*/
+
+.categories li:hover{
+	background-color: rgba(142, 142, 147, 0.19);
+
+}
+.categories-content li:hover {
+	background-color: rgba(142, 142, 147, 0.05);
+}
+.group-icons .fa:hover {
+	background-color: #007aff;
+	color: #fff;
+}
+.right-main-content .fa:nth-child(1):hover {
+	border-radius: 15px 0px 0px 15px;
+}
+.right-main-content .fa:nth-child(4):hover {
+	border-radius: 0px 15px 15px 0px;
+}
+
+/*header section*/
+
+.search {
+	padding: 5px;
+	height: 30px;
+	border-radius: 15px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
+	float: right;
+	position: relative;
+}
+.logo-wrapper {
+	display: inline-block;
+}
+.logo-wrapper span {
+	vertical-align: top;
+}
+.logo{ 
+	border:3px solid #0000;
+	background-color: #000;
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	border-radius: 0px 0px 5px 5px
+}
+.main-head {
+	padding: 20px;
+}
+.main-head input {
+	width: 240px;
+	border:none;
+	font-size: 16px;
+}
+.main-head input:focus {
+	outline: 0px;
+}
+.main-head .fa{
+	color: #b4b0af;
+	float: left;
+	padding: 0px;
+	margin: 0 5px;
+}
+.main-head h3 {
+	display: inline-block;
+	position: absolute;
+	left:50%;
+}
+
+/*categories section*/
+
+.categories li {
+	padding:10px 25px;
+
+}
+.inbox{
+	margin-bottom: 40px;
+}
+.fa-caret-square-o-down  {
+	padding:5px;
+}
+.clients-dropdown li  {
+	padding:10px 0px;
+
+}
+.categories .fa-caret-square-o-down {
+	color: #70727a;
+	font-size: 15px;
+	float: right;
+}
+
+
+
+/*aside bottom buttons*/
+.aside-bottom-buttons {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	font-size: 0;
+
+}
+.aside-bottom-buttons .fa::before{
+    opacity: 0.4;
+}
+.aside-bottom-buttons .fa {
+	width: 50%;
+	font-size: 35px;
+	padding: 10px;
+	background-color: #f9f9f9;
+}
+.aside-bottom-buttons .fa:nth-child(1){
+	border-right:1px solid #ededed;
+
+}
+.aside-bottom-buttons .fa:hover::before{
+    opacity: 1;
+}
+
+
+/*categories-content*/
+
+
+.categories-content {
+	width: 335px;
+	vertical-align: top;
+	color: #65676e;
+	display: inline-block;
+	overflow:auto;
+	height: 100%;
+
+}
+.categories-content h4 {
+	display: inline-block;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 200px;
+
+}
+
+.categories-content span{
+	font-size: 12px;
+	color: #a3a3a8;
+	width: 230px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+/*	margin-bottom: 20px;
+*/
+}
+.categories-content .fa {
+	float: right;
+	font-size: 15px;
+	padding: 0px 5px;
+}
+.categories-content li {
+	padding: 20px;
+	border-left: 3px solid transparent;
+	border-bottom: .5px solid #ededed;
+}
+#blue {
+	border-left: 3px solid #007aff;
+
+
+}
+
+
+
+
+/*right-main-content*/
+
+.right-main-content {
+	width: calc(100% - 335px);
+    display: inline-block;
+}
+.right-header {
+	padding: 40px 30px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+.right-main-content p {
+	font-size: 14px;
+	color: #65676e;
+}
+.name {
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
+	border-radius: 15px;
+	display: inline-block;
+	margin-left: 5px;
+	padding: 3px 10px;
+	cursor: pointer;
+}
+
+.group-icons{
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
+	border-radius: 15px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.group-icons .fa {
+	padding: 12px 15px;
+}
+.right-main-content figure{
+	display: inline-block;
+	position: relative;
+	z-index: -2;
+	vertical-align: middle;
+}
+.details {
+	display: inline-block;
+	vertical-align: top;
+	margin:0px 20px;
+	color: #8f929d;
+	width: calc(100% - 320px);
+	position: relative;
+/*	cursor: pointer;
+*/}
+.details h3 {
+	margin-bottom: 10px;
+	color: #4c4f59;
+	font-size: 20px;
+
+}
+.details span {
+	font-size: 16px;
+}
+.details .fa {
+	padding-left: 10px;
+}
+.right-main-content figure code{
+	position: absolute;
+	top:10px;
+	left: 70px;
+}
+code {
+	margin-top: 3px;
+}
+
+.right-main-content-description p {
+	margin-bottom: 30px;
+	color: #65676e;
+}
+.right-main-content-description {
+    overflow: auto;
+    padding: 30px;
+}
+.wrapper {
+	width: calc(100vw - 225px);
+	float: right;
+	font-size: 0;
+	height: 100%;
+
+}
+.clients-dropdown {
+	display: none;
+	width: 100%;
+	color:#8e8e93;
+	font-size: 15px;
+	max-height: 150px;
+	overflow: auto;
+}
+.clients1 {
+	overflow-y: auto;
+}
+main {
+	position: relative;
+}
+.mail-compose {
+  width:600px;
+  height: 600px;
+  box-shadow: 0 0 15px 5px #8e8e93;
+  position: absolute;
+  bottom:10px;
+  left: 150%;
+  background-color: #fff;
+  display: none;
+  z-index: 500;
+
+}
+
+.mail-label {
+  background-color: #404040;
+  padding: 20px;
+  font-size: 14px;
+  color: #b2b2b2;
+
+}
+
+.mail-label .fa{
+	float: right;
+	font-size: 15px;
+	font-weight: lighter;
+
+}
+
+.mail-compose input {
+  border:none;
+  border-bottom:1px solid #eceff1;
+  color: #7a7a7a;
+  padding: 10px 0px;
+  font-size: 18px;
+  margin:10px 20px;
+  width: 90%;
+}
+.send-options button {
+	position: absolute;
+	bottom: 0;
+	margin:10px 20px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+.pre-defined {
+	display: none;
+	background-color: #f9f9f9;
+	position: absolute;
+	top: calc(100% + 20px);
+	width: 100%;
+	left: 0;
+	border-radius: 5px;
+
+}
+
+.pre-defined li{
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	z-index: 200;
+	color: #8e8e93;
+}
+.pre-defined li:hover {
+	background-color: rgba(142, 142, 147, 0.19);
+}
+
+.details-pop {
+	width: 400px;
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.07);
+	border-radius: 10px;
+	display: none;
+	position: absolute;
+	background-color: #ffff;
+	right: 20%;
+	left:5%;
+	top:70px;
+	padding: 10px;
+
+}
+
+.details-pop span {
+	padding: 10px 5px;
+	display: inline-block;
+	text-align: left;
+/*	cursor: pointer;
+*/}
+
+.pre-defined::before{
+	content: "";
+	display: block;
+	position: absolute;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-bottom: 15px solid #f9f9f9;
+	bottom: 100%;
+	left: 30px;
+}
+
+.clients-dropdown li {
+	padding: 10px 30px 10px 50px;
+	background-color: #f9f9f9;
+
+}
+
+
+
+
+
+
+

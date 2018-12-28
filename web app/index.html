@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web app</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="common.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+
+	<!-- header section -->
+
+	<header class="main-head clear">
+        <div class="logo-wrapper">
+            <span class="logo"></span>
+            <span>Mail</span> 
+        </div>
+		<h3>Sparrow(2)</h3>
+		<div class="search">
+            <input type="text">
+			<i class="fa fa-search" aria-hidden="true"></i>
+			<i class="fa fa-caret-down" aria-hidden="true"></i>   
+
+            <!-- dropdown in search -->
+
+            <ul class="pre-defined">
+             <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Users</li>
+                <li>Google</li>
+            </ul>      
+		</div>
+	</header>
+
+	<!-- main section starts -->
+<main class="clear">
+	<aside class="categories">
+    	<nav>
+            <button class="btn compose-btn">COMPOSE</button>
+
+           <!-- Mail-compose -->
+
+                <div class= "mail-compose clear">                  
+                  <div class="mail-label">
+                    <span>New Message</span>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                    <i class="fa fa-window-minimize" aria-hidden="true"></i>
+                  </div>
+                  <input type="text" placeholder="Recipients">
+                  <input type="text" placeholder="Subject">
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                  <div class="send-options">
+                    <button type="submit" class="btn"> Send</button>
+                  </div>                  
+                </div>
+          <!-- inbox -->
+
+    		<ul class="inbox">
+    			<li><i class="fa fa-inbox"></i><a href="#">Inbox <span>(2)</span></a></li>
+    			<li><i class="fa fa-share-square-o"></i><a href="#" class=>Sent Mail <span></span></a></li>
+    			<li><i class="fa fa-star-o"></i><a href="#" >Starred <span></span></a></li>
+    			<li><i class="fa fa-file-text-o"></i><a href="#" >Drafts <span></span></a></li>
+    			<li><i class="fa fa-trash-o"></i><a href="#">Trash <span>(3)</span></a></li>
+    		</ul>
+
+          <!-- clients -->
+
+    		<ul class="clients1">
+    			<li class="personal-mark"><code></code><a href="#">Personal <span>(4)</span></a></li>
+    			<li class="clients-mark"><code></code><a href="#">Client </a><i class="fa fa-caret-square-o-down" aria-hidden="true"></i></li>
+                <ul class="clients-dropdown">
+                    <li>Facebook</li>
+                    <li>Google</li>
+                    <li>Snap chat</li>
+                    <li>twitter</li>
+                    <li>Facebook</li>
+                    <li>Google</li>
+                    <li>Snap chat</li>
+                    <li>twitter</li>
+                </ul>
+    			<li class="family-mark"><code ></code><a href="#">Family<span>(4)</span></a></li>
+    			<li class="friend-mark"><code ></code><a href="#">Friends <span> (3)</span></a></li>
+    			<li class="archives-mark"><code ></code><a href="#">Archives <span></span></a></li>
+                <li><code></code><a href="#">Family <span>(4)</span></a></li>
+                <li><code></code><a href="#">Friends<span>(2)</span></a></li>
+                <li><code></code><a href="#">Family <span>(4)</span></a></li>
+    		</ul>
+    	</nav>
+    	<div class="aside-bottom-buttons">
+				<button class="fa fa-cog"></button>
+				<button class="fa fa-user"></button>
+    	</div>
+    </aside>	
+<!-- aside section ENDS -->
+
+
+<!-- description of main content STARTS-->
+<section class="wrapper">
+    <div class="categories-content clear">
+        <ul class="">
+            <li class="clients attach" >
+                <h4>My portfolio is up</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Jimmy Raherlarisoa Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tempora perferendis reiciendis voluptatum nobis dolores nam perspiciatis ipsum veritatis id, amet animi, harum laboriosam quos tempore doloremque nostrum! Assumenda, nemo!</span>
+                    <code></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>         
+            </li>
+            <li class="personal attach"id="blue"> 
+                <h4>Feedbacks UI Concept</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Anne Thai Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore accusamus quis ut adipisci in vel est aliquid quia, corporis repudiandae, ad hic ipsa vero dolores sit dignissimos? Libero unde, enim.</span>
+                    <code></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li  class="family">
+                <h4>Don't forget my birthday</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Luca Tantardini</span>
+                    <code></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li>
+                <h4>Your Dropbox Account</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Dropbox Team</span>
+                    <code></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li>
+                <h4>Order Confirmation</h4>
+                <time>18:27</time>
+                <div>
+                    <span>A Book Apart Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet illum distinctio ab. Atque voluptatem enim nostrum tenetur adipisci, assumenda? Dolores quia, architecto adipisci nihil voluptatum eligendi est distinctio. Explicabo, fugit?</span>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li class="archives">
+                <h4>Check this crazy video</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Antoine Farjon</span>
+                    <code></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li>
+                <h4>Hello Vincent</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Designmodo</span>
+                    <code></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li>
+                <h4>Comment on your article</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Maxime Messer</span>
+                    <code></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li  class="personal">
+                <h4>Comment on your article</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Maxime Messer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem vitae distinctio eos, neque exercitationem dicta voluptates magnam itaque unde sunt deserunt voluptatum similique facere non veniam necessitatibus, labore numquam nemo!</span>
+                    <code></code>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li>
+                <h4>Comment on your article</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Maxime Messer</span>
+                    <code></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li class="archives">
+                <h4>Comment on your article</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Maxime Messer</span>
+                    <code></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li class="family attach">
+                <h4>Comment on your article</h4>
+                <time>18:27</time>
+                <div>
+                    <span>Maxime Messer</span>
+                    <code ></code>
+                    <a href="#" class="fa fa-reply"></a>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="right-main-content">
+    <div class="right-header">
+        <figure class="family-mark">
+            <code></code>
+            <img src="image/person1.png" alt="user">
+        </figure>
+        <div class="details">
+            <h3>Feedbakcs UI Concept</h3>
+            <span>From:</span>
+            <div class="name">
+              <span>Anne Thai</span>
+              <a href="#" class="fa fa-caret-down"></a>         
+            </div>
+            <div>
+                <ul class="details-pop">
+                    <li> <span>from:</span> <span>velmurugan.ganesan@a-cti.com </span></li>
+                    <li><span>to:</span> <span> meena.sekar@anywhere.co </span></li>
+                    <li><span>date:</span> <span> Dec 5, 2018, 11:29 PM</span></li>
+                    <li><span>mailed-by: </span> <span> Payslip Released</span></li>
+                    <li><span>signed-by: </span> <span>  greytip.in </span></li>
+                </ul> 
+            </div>
+        </div>
+        
+        <div class="group-icons clear">
+            <a href="#" class="fa fa-star-o"></a>
+            <a href="#" class="fa fa-file-text-o"></a>
+            <a href="#" class="fa fa-trash-o"></a>
+            <a href="#" class="fa fa-reply"></a>
+        </div>
+    </div>
+                   
+        <!--header section for main-content Starts -->
+
+                <article class="right-main-content-description">
+                    <h4>Hello Vincent,</h4>
+                    <p>Forage Etsy chia cliche sriracha.  Banh mi sustainable stumptown Pitchfork occupy.  Chambray Godard biodiesel Blue Bottle cred fap, you probably haven't heard of them pop-up freegan small batch Shoreditch disrupt four loko viral stumptown.</p>
+                    <p>Banjo deep v Tonx Tumblr.  Forage direct trade  whatever, kale chips lo-fi Blue Bottle DIY church-key flannel street art. </p>
+                    <p>Put a bird on it hella actually leggings.  Brunch authentic slow-carb, four loko post-ironic twee vegan Marfa fap.Hoodie Tonx whatever, forage brunch Truffaut pug synth slow-carb paleo fingerstache.  </p>
+                    <p>Roof party kale chips Neutra, vinyl photo booth dreamcatcher literally.  Flexitarian banh mi 3 wolf moon blog, tofu Etsy ethnic bicycle rights banjo.  Helvetica retro yr kale chips, wolf locavore disrupt Neutra sartorial mlkshk pork belly leggings church-key cardigan.  Blog banh mi bitters tattooed.  Ennui try-hard gentrify, Helvetica Echo Park vegan ethical flannel.</p>
+                    <p>Aesthetic mixtape chambray messenger bag, cred cardigan semiotics dreamcatcher 90's seitan.</p>
+                    <p>Whatever 3 wolf moon artisan synth, flannel locavore Carles iPhone plaid deep v kale chips post-ironic.  Mumblecore selvage ethical Portland McSweeney's raw denim, viral swag put a bird on it pop-up +1 tousled.  Swag Banksy seitan salvia cliche.</p>
+                    <p>Forage Etsy chia cliche sriracha.  Banh mi sustainable stumptown Pitchfork occupy.  Chambray Godard biodiesel Blue Bottle cred fap, you probably haven't heard of them pop-up freegan small batch Shoreditch disrupt four loko viral stumptown.</p>
+                    <p>Banjo deep v Tonx Tumblr.  Forage direct trade  whatever, kale chips lo-fi Blue Bottle DIY church-key flannel street art. </p>
+                    <p>Put a bird on it hella actually leggings.  Brunch authentic slow-carb, four loko post-ironic twee vegan Marfa fap.Hoodie Tonx whatever, forage brunch Truffaut pug synth slow-carb paleo fingerstache.  </p>
+                    <p>Roof party kale chips Neutra, vinyl photo booth dreamcatcher literally.  Flexitarian banh mi 3 wolf moon blog, tofu Etsy ethnic bicycle rights banjo.  Helvetica retro yr kale chips, wolf locavore disrupt Neutra sartorial mlkshk pork belly leggings church-key cardigan.  Blog banh mi bitters tattooed.  Ennui try-hard gentrify, Helvetica Echo Park vegan ethical flannel.</p>
+                    <p>Aesthetic mixtape chambray messenger bag, cred cardigan semiotics dreamcatcher 90's seitan.</p>
+                    <p>Whatever 3 wolf moon artisan synth, flannel locavore Carles iPhone plaid deep v kale chips post-ironic.  Mumblecore selvage ethical Portland McSweeney's raw denim, viral swag put a bird on it pop-up +1 tousled.  Swag Banksy seitan salvia cliche.</p>    
+                </article>
+          </div>   
+      </div>       
+</section>            
+</main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
